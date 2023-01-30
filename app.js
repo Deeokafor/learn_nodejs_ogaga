@@ -1,7 +1,4 @@
-//
-const add = (a, b) => {
-    return a + b;
-}
+const add = require('./math_functions');
+const result = add(4, 5);
 
-const sum = add(3,4);
-console.log(sum);
+console.log(result);
